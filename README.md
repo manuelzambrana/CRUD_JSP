@@ -1,1 +1,3 @@
 # CRUD_JSP
+
+Este ejercicio consistirá en un CRUD sobre los alumnos de un instituto, donde tendremos tablas como: nombre, apellidos, asiganturas suspensas, asignaturas que cursan, si es repetidor etc...
