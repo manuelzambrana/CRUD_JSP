@@ -33,6 +33,12 @@ Y aquí vemos el cambio de alumno
 <img src="imagenes/exito.png" width="700px">
 
 
+En el inicio podremos acceder al repositorio del CRUD clickeando en GitHub.
+
+
+El funcionamiento de la tabla profesor es igual que la de alumnos donde podremos
+editar profesores, añadir y borrar
+
 
 
 
