@@ -17,6 +17,27 @@ Aquí podremos ver una barra de navegación también
 En añade alumnos podremos entrar a una pestaña para poder añadir alumnos
 <img src="imagenes/alumno.png" width="700px">
 
+Eliminar (como el alumno con id 1)
+
+<img src="imagenes/borraAlumno.png" width="700px">
+
+modificar (como el alumno 2 donde cambio su modalidad ) y comprobamos que funciona 
+
+<img src="imagenes/modificarAlumno.png" width="700px">
+
+Una vez modificado podremos volver a la pagina principal o a la lista de alumnos
+<img src="imagenes/modificado.png" width="700px">
+
+Y aquí vemos el cambio de alumno
+
+<img src="imagenes/exito.png" width="700px">
+
+
+
+
+
+
+
 
 
 
