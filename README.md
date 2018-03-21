@@ -6,4 +6,4 @@ Este ejercicio consistirá en un CRUD sobre los datos de un instituto, donde ten
 El inicio sesión del crud costa de un E-mail y contraseña para poder entrar
 (Vale cualquiera ya que no hay registro de usuario)
 
-<img src="imagenes/inicioSesion.png" width="240px">
+<img src="imagenes/inicioSesion.png" width="500px">
