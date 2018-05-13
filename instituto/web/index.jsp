@@ -25,6 +25,9 @@ body {
 </style>
   </head>
   <body>
+      <form method="get" action="sesion.jsp">
+      
+      
       <div class="container" >
           <div class="col-sm-10" style="width: 600px; margin-left: 250px; margin-top: 50px;">
               <div class="jumbotron" style="background-color:transparent !important;">
@@ -42,21 +45,21 @@ body {
                               <span class="glyphicon glyphicon-user">            
                               </span>
                           </span>
-                          <input type="email" class="form-control" name="email"
-                                 placeholder="E-mail" required>
+                          
+                       <input type="text" name="u" placeholder="Usuario" required="required" />
                       </div> 
                       <div class="form-group input-group">
+                          
                           <span class="input-group-addon">
-                              <span class="glyphicon glyphicon-lock"></span>
+                              <span class="glyphicon glyphicon-lock" ></span>
                               
                           </span>
-                          <input type="password" class="form-control" name="password"
-                                 placeholder="Contraseña" required>
+                            <input type="password" name="p" placeholder="Contaseña" required="required" style="weight: 50px " />
                       </div>
                      
                       <div class="form-group">
-                          <a href="inicio.jsp"><span class="btn btn-primary" style="width: 430px;" >
-                                  Iniciar Sesión</button>
+                          
+                        <button type="submit" class="btn btn-primary btn-block btn-large">Iniciar sesión</button>
                       </div>
                     
                           
@@ -70,6 +73,7 @@ body {
           </div>
           
       </div>
+      </form>
       
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

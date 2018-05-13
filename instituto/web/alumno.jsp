@@ -2,6 +2,7 @@
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
@@ -47,7 +48,25 @@
           <tr><td><input type="text" name="alumno_id" size="5"></td>
               <td><input type="text" name="nombre" size="30"></td>            
               <td><input type="text" name="edad" size="5"></td>
-              <td><input type="text" name="modalidad" size="20"></td>
+              <td><select name="modalidad">
+                       <%
+                                  ArrayList<String> modalidad = new ArrayList();
+                                  modalidad.add("Ciencias");
+                                  modalidad.add("Letras");
+                                  modalidad.add("Humanidades");
+                                  modalidad.add("Tecnologico");
+                                  modalidad.add("Bellas Artes");
+                                  modalidad.add("Deportivo");                 
+                              
+                                      int cont = 0;
+                                      for (String n : modalidad) {
+                                          cont++;
+                                        out.println("<option value="+cont+">" + n + "</option>");
+                                      }
+                                    %>  
+                                </select>
+                            </td>
+              </td>
               <td><button type="submit" value="Añadir" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span></button></td><td></td></tr>           
         </form>
         <%
